@@ -36,7 +36,7 @@ EOF
             ;;
         exec)
             mkdir -p results
-            ctid=$(docker run --rm -d teecke/docker-cypress-crawler tail -f /dev/null)
+            ctid=$(docker run --rm -d tpbtools/docker-cypress-crawler tail -f /dev/null)
             docker cp cypress/fixtures "${ctid}:/workspace/cypress"
             docker exec "${ctid}" npm run cypress:run
             docker cp "${ctid}:/workspace/cypress/screenshots" results
