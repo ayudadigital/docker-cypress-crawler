@@ -1,5 +1,26 @@
 # Changelog
 
+## v1.0.0 (2020-04-14)
+
+### Changes
+
+#### Breaking
+
+* Change references from teecke to tpbtools ([db29da7](https://github.com/tpbtools/docker-cypress-crawler/commit/db29da7))
+* Upgrade license ([e76a5ab](https://github.com/tpbtools/docker-cypress-crawler/commit/e76a5ab))
+
+#### Build
+
+* Update Auto Release Log adding v1.0.0 info with JPL ([0311319](https://github.com/tpbtools/docker-cypress-crawler/commit/0311319))
+
+#### Docs
+
+* Generate v0.2.3 changelog with JPL ([903eee8](https://github.com/tpbtools/docker-cypress-crawler/commit/903eee8))
+
+### Authors
+
+* Pedro Amador
+
 ## v0.2.3 (2020-04-12)
 
 ### Changes
